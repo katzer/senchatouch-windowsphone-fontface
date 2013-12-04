@@ -18,7 +18,7 @@ $include-default-icons: false;
 @import "sencha-touch/windows";
 @import "sencha-touch/default";
 ```
-#### 3. Import the windowsphone-icon.scss mixin
+#### 3. Import the mixin
 ```scss
 @import "stylesheets/mixins/windowsphone-icon";
 ```
