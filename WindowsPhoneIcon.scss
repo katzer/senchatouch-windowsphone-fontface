@@ -1,0 +1,26 @@
+
+@mixin windowsphone-icon($name, $icon, $active-icon: null) {
+	.x-tab .x-button-icon.#{$name}:before,
+	.x-button .x-button-icon.#{$name}:before {
+		content: none;
+	}
+
+	.x-tab .x-button-icon.#{$name} {
+		background-size: 65%;
+		background-position: 6px 6px;
+	}
+
+	.x-button-icon.#{$name} {
+		background-image: theme_image("../../../../resources/", #{$icon});
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	@if $active-icon != null {
+		.x-tab-active .x-button-icon.#{$name},
+		.x-tab-pressed .x-button-icon.#{$name},
+		.x-button-pressing .x-button-icon.#{$name} {
+			background-image: theme_image("../../../../resources/", #{$active-icon});
+		}
+	}
+}
