@@ -7,6 +7,9 @@ Since [Sencha Touch](http://www.sencha.com/forum/showthread.php?261159-ST2.2RC-W
 
 As the only workaround all icons has to be loaded as background images instead.
 
+#### Windows Phone 8.1
+The issue has been resolved with Windows Phone 8.1 and IE11.
+
 ## Sass configuration
 #### 1. Exclude pictos font and default icons
 ```scss
