@@ -25,10 +25,10 @@ $include-default-icons: false;
 ```scss
 @import "stylesheets/mixins/windowsphone-icon";
 ```
-#### 4. Import the icons you need
+#### 4. Include the icons you need
 ```scss
-@import windowsphone-icon("home", "icons/home.png");
-@import windowsphone-icon("star", "icons/star.png", "icons/star_active.png");
+@include windowsphone-icon("home", "icons/home.png");
+@include windowsphone-icon("star", "icons/star.png", "icons/star_active.png");
 ```
 
 ## Sass mixin
